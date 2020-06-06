@@ -55,7 +55,7 @@ class Desk:
 
 
         #AREA DE RESULTADOS
-        self.message = Label(text = '', fg = 'red')
+        self.message = Label(text = ' Aqui se mostrara el resultado de las funciones', fg = 'green')
         self.message.grid(row = 3, column = 0,)
 
 
@@ -134,8 +134,6 @@ class Desk:
         self.message['text'] = '{} {} o al revez {} {}'.format(nombre,apellido,invert,invert2)
 
 
-    
-#validamos si estamos en la aplicación inicial
 if __name__ == '__main__':
     pantalla = Tk()
     
